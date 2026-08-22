@@ -1,4 +1,4 @@
-# Flood-Detector---Training-and-evaluation-pipeline-for-edge-deployment
+# Flood Detector-Training and evaluation pipeline for edge deployment
 
 This repository contains the official implementation of the deep learning pipeline, data augmentation strategies, and uncertainty quantification framework proposed in the article: **"An Image-Based Urban Flood Detection System using Deep Learning and Conformal Prediction for Edge Deployment"**.
 
@@ -27,7 +27,7 @@ The architectural choices, the Sparse Categorical Focal Loss implementation, and
 To reproduce the pipeline without local hardware constraints, the codebase is designed to be executed directly via Kaggle. The pipeline strictly requires two specific public datasets hosted on the platform:
 
 1. **River Images Dataset:** Contains the raw camera frames and the annotation file. [https://www.kaggle.com/datasets/caetanoranieri/river-images-at-sao-carlos]
-2. **River Masks Dataset:** Contains the semantic segmentation masks utilized for the dynamic background augmentation. []
+2. **River Masks Dataset:** Contains the semantic segmentation masks utilized for the dynamic background augmentation. [https://www.kaggle.com/datasets/guilhermebisse/sao-carlos-river-masks-full-batch]
 
 **Execution Steps:**
 1. Download the `flood_detection_pipeline.ipynb` file from this repository.
