@@ -41,9 +41,11 @@ To reproduce the pipeline without local hardware constraints, the codebase is de
 If you utilize this code or our methodology in your research, please cite our paper:
 
 ```bibtex
-@article{your_lastname2026,
-  title={Insert Your Article Title Here},
-  author={Your Name and Co-authors},
-  journal={Name of the Journal or Conference},
-  year={2026}
+@inproceedings{rodrigues2026image,
+  title={An Image-Based Urban Flood Detection System using Deep Learning and Conformal Prediction for Edge Deployment},
+  author={Rodrigues, Guilherme Bisse Alves and Rocha, Arthur Lima Marques and Ueyama, J{\'o} and Ranieri, Caetano Mazzoni},
+  booktitle={Encontro Nacional de Intelig{\^e}ncia Artificial e Computacional (ENIAC)},
+  pages={2655--2666},
+  year={2026},
+  organization={SBC}
 }
