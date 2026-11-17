@@ -15,6 +15,7 @@ Standard neural networks typically produce overconfident deterministic predictio
 
 * `flood-detector-training-and-evaluation-pipeline.ipynb`: The comprehensive Jupyter Notebook containing the data preprocessing, model training, Focal Loss formulation, and Conformal Prediction calibration.
 * `original_training_report.pdf`: The official evaluation report documenting the exact performance metrics and confusion matrix published in the manuscript.
+*  `paper.pdf`: The research paper that contains introduction, related work, methodology, results, and conclusion.
 
 ## Reproducibility Notice
 
@@ -35,6 +36,8 @@ To reproduce the pipeline without local hardware constraints, the codebase is de
 3. Use the "Add Data" feature in the Kaggle interface to attach both datasets listed above to your environment.
 4. Ensure that the `DATASET_IMAGENS`, `DATASET_MASCARAS`, and `CSV_PATH` variables in the configuration cell match the correct Kaggle input directories.
 5. Execute all cells to run the training pipeline and generate the automated evaluation report and conformal prediction visual analytics.
+
+The .keras file for the trained model is available on the Hugging Face platform. You can find all the instructions for running the model there. [https://huggingface.co/Bisse18/Mobilenet_V3_Large_FT_for_urban_flood_detection]
 
 ## Citation
 
